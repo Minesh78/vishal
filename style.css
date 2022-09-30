@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+nav{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1 rem 0;
+    background-color: aquamarine;
+}
+
+nav .container{
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+.logo{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.logo span{
+    font-weight: 300 ;
+}
+.nav-pills{
+    margin:0;
+    padding-right: 4%;
+    display:inline-flex;
+    list-style: none;
+    text-decoration: none; 
+}
+.container .link{
+    font-weight: 800;
+    text-decoration: none;
+    padding-left: 4rem;
+}
+
+.slideshow{
+    width: 100vw;
+    height: 100vh;
+    position:relative;
+}
+.slide{
+    position:absolute;
+    /* inset: 0;
+    opacity: 0; */
+}
+.slide > img{
+    display: block ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slide [data-active]{
+    opacity: 1;
+}
