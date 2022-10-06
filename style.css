@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+<<<<<<< HEAD
 *, *::before, *::after{
+=======
+*{
+
+>>>>>>> b3a53535e7107ed45a6b1a9134d19a2607d40111
     box-sizing: border-box;
 }
 body{
@@ -64,13 +69,21 @@ nav .container{
     z-index: 5;
     width: 100vw;
     height: 100vh;
+<<<<<<< HEAD
     position:relative;
     z-index: 1;
+=======
+    position:absolute;
+>>>>>>> b3a53535e7107ed45a6b1a9134d19a2607d40111
 }
 .slide{
     position:absolute;
     inset: 0;
+<<<<<<< HEAD
     opacity: 0; 
+=======
+    opacity: 0;
+>>>>>>> b3a53535e7107ed45a6b1a9134d19a2607d40111
 }
 .slide li img{
     display: block ;
@@ -78,6 +91,6 @@ nav .container{
     height: 100%;
     object-fit: cover;
 }
-/* .slide [data-active]{
+.slide [data-active]{
     opacity: 1;
-} */
+}
