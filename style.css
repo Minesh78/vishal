@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-<<<<<<< HEAD
 *, *::before, *::after{
-=======
-*{
-
->>>>>>> b3a53535e7107ed45a6b1a9134d19a2607d40111
     box-sizing: border-box;
 }
 body{
@@ -16,10 +11,7 @@ body{
 
 header{
     width: 100%;
-<<<<<<< HEAD
-=======
     height: ;
->>>>>>> 62d1bdbf8619598928c130f4b2a5155b51e319ef
     position: relative;
     overflow: hidden;
     z-index: 5;
