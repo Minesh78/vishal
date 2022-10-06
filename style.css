@@ -11,6 +11,10 @@ body{
 
 header{
     width: 100%;
+<<<<<<< HEAD
+=======
+    height: ;
+>>>>>>> 62d1bdbf8619598928c130f4b2a5155b51e319ef
     position: relative;
     overflow: hidden;
     z-index: 5;
@@ -18,6 +22,7 @@ header{
 }
 nav{
     position:absolute;
+    z-index: 10;
     top: 0;
     left: 0;
     width: 100%;
@@ -56,6 +61,7 @@ nav .container{
 }
 
 .slideshow{
+    z-index: 5;
     width: 100vw;
     height: 100vh;
     position:relative;
@@ -66,12 +72,12 @@ nav .container{
     inset: 0;
     opacity: 0; 
 }
-.slide > img{
+.slide li img{
     display: block ;
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.slide [data-active]{
+/* .slide [data-active]{
     opacity: 1;
-}
+} */
